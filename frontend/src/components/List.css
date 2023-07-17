@@ -1,0 +1,36 @@
+/* Styling for the list item */
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    width: 10%;
+  }
+  
+  /* Styling for the task text */
+  li span {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  /* Styling for the icon holder */
+  .icon_holder {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styling for the icons */
+  .icon {
+    cursor: pointer;
+   
+    font-size: 18px;
+  }
+  
+  /* Optional hover effect for icons */
+  .icon:hover {
+    color: #ff0000; /* Change the color to your desired hover effect */
+  }
+  
